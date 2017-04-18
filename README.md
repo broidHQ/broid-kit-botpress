@@ -30,7 +30,7 @@
 
 # Broid Kit Botpress
 
-**Broid Kit Botpress** is one of the [broid-kit](https://github.com/broidHQ/broid-kit) middlewares to integrate [botpress](https://github.com/botpress/botpress) with [Broid Integrations](https://github.com/broidHQ/integrations/) which allows you to leverage the largest collection of messaging channels integrated in a given framework.
+**Broid Kit Botpress** is a [broid-kit](https://github.com/broidHQ/broid-kit) middlewares that integrates [botpress](https://github.com/botpress/botpress) with [Broid Integrations](https://github.com/broidHQ/integrations/) which allows you to leverage the largest collection of messaging channels integrated in a single framework.
 
 This middleware support `Incoming` and `Outcoming` messages.
 
@@ -64,20 +64,20 @@ bot.use(new BroidKitBotpress({
 }));
 
 // Listening for public starting by `hello`
-  bot.hear("hello.*", "Group")
-    .subscribe((data) => {
-      console.log("Data:", JSON.stringify(data, null, 2));
+bot.hear("hello.*", "Group")
+  .subscribe((data) => {
+    console.log("Data:", JSON.stringify(data, null, 2));
 
-      // Reply to the message
-      bot.sendText("Hi, How are you?", data.raw);
-    });
-  ```
+    // Reply to the message
+    bot.sendText("Hi, How are you?", data.raw);
+  });
+```
 
 # Documentation
 
 ## Quick Start
 
-1. Create a new node projects
+1. Create a new node project
 
 ```bash
 $ npm init
@@ -89,7 +89,7 @@ $ npm init
 $ npm -g i botpress
 $ mkdir botpress && cd botpress && botpress init
 ```
-take a coffee ;)
+Take a coffee ;)
 
 3. Install **broid-kit**
 
