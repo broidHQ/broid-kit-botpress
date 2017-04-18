@@ -30,11 +30,11 @@
 
 # Broid Kit Botpress
 
-Broid Kit Botpress is a middle for [botpress](https://github.com/botpress/botpress) to use in [broid-kit](https://github.com/broidHQ/broid-kit). Broid Kit is powered by [Broid Integrations](https://github.com/broidHQ/integrations/) which allows you to leverage the largest collection of messaging channels integrated in a given framework.
+**Broid Kit Botpress** is one of the [broid-kit](https://github.com/broidHQ/broid-kit) middlewares to integrate [botpress](https://github.com/botpress/botpress) with [Broid Integrations](https://github.com/broidHQ/integrations/) which allows you to leverage the largest collection of messaging channels integrated in a given framework.
 
 This middleware support `Incoming` and `Outcoming` messages.
 
-> Connect your App to Multiple Messaging Channels with the W3C Open standards.
+> Connect your application to multiple messaging channels using W3C Open standards.
 
 [![gitter][gitter]][gitter-url] [![join-slack][join-slack]][join-slack-url]
 
