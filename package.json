@@ -47,7 +47,7 @@
   "devDependencies": {
     "@types/bluebird": "^3.0.37",
     "@types/bluebird-global": "^3.0.1",
-    "@types/node": "^7.0.12",
+    "@types/node": "^7.0.13",
     "@types/ramda": "0.0.3",
     "ava": "^0.18.1",
     "concurrently": "^3.1.0",
@@ -74,6 +74,17 @@
     "release": "npm run travis && npm run build && npm publish --access public",
     "watch": "concurrently --kill-others \"npm run lint:watch\" \"npm run tsc:watch\""
   },
-  "author": "",
-  "license": "ISC"
+  "ava": {
+    "files": [
+      "lib/test/**/*.js"
+    ],
+    "concurrency": 5,
+    "failFast": true,
+    "tap": true
+  },
+  "nyc": {
+    "exclude": [
+      "dist"
+    ]
+  }
 }

@@ -53,8 +53,8 @@
     bluebird "^3.4.6"
 
 "@broid/slack@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@broid/slack/-/slack-2.0.0.tgz#d986f6253e9b432c1f028960025a9d20d8c870aa"
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@broid/slack/-/slack-2.0.1.tgz#48a43d1fcc6db052096ddc578b02ba436509c6ea"
   dependencies:
     "@broid/schemas" "^1.0.0"
     "@broid/utils" "^1.1.0"
@@ -99,8 +99,8 @@
     ws "^1.0.1"
 
 "@types/bluebird-global@^3.0.1":
-  version "3.5.1"
-  resolved "https://registry.yarnpkg.com/@types/bluebird-global/-/bluebird-global-3.5.1.tgz#c63c0e18b861f2c6992e79af1f8e00c69a35805a"
+  version "3.5.2"
+  resolved "https://registry.yarnpkg.com/@types/bluebird-global/-/bluebird-global-3.5.2.tgz#5a79674e94cbd39bdc5b6b345739411260fcb9b5"
   dependencies:
     "@types/bluebird" "*"
 
@@ -108,9 +108,9 @@
   version "3.5.2"
   resolved "https://registry.yarnpkg.com/@types/bluebird/-/bluebird-3.5.2.tgz#ecf1104217495e50fe0b588d538146cd6f733b89"
 
-"@types/node@^7.0.12":
-  version "7.0.12"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-7.0.12.tgz#ae5f67a19c15f752148004db07cbbb372e69efc9"
+"@types/node@^7.0.13":
+  version "7.0.13"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-7.0.13.tgz#1b0a53fe9ef9c3a5d061b126cc9b915bca43a3f5"
 
 "@types/ramda@0.0.3":
   version "0.0.3"
@@ -139,8 +139,8 @@ agent-base@2:
     semver "~5.0.1"
 
 ajv@^4.9.1:
-  version "4.11.6"
-  resolved "https://registry.yarnpkg.com/ajv/-/ajv-4.11.6.tgz#947e93049790942b2a2d60a8289b28924d39f987"
+  version "4.11.7"
+  resolved "https://registry.yarnpkg.com/ajv/-/ajv-4.11.7.tgz#8655a5d86d0824985cc471a1d913fb6729a0ec48"
   dependencies:
     co "^4.6.0"
     json-stable-stringify "^1.0.1"
@@ -233,8 +233,8 @@ arr-exclude@^1.0.0:
   resolved "https://registry.yarnpkg.com/arr-exclude/-/arr-exclude-1.0.0.tgz#dfc7c2e552a270723ccda04cf3128c8cbfe5c631"
 
 arr-flatten@^1.0.1:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/arr-flatten/-/arr-flatten-1.0.2.tgz#1ec1e63439c54f67d6f72bb4299c3d4f73b2d996"
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/arr-flatten/-/arr-flatten-1.0.3.tgz#a274ed85ac08849b6bd7847c4580745dc51adfb1"
 
 array-differ@^1.0.0:
   version "1.0.0"
@@ -811,8 +811,8 @@ botpress-version-manager@^1.0.2, botpress-version-manager@^1.0.3:
     semver "^5.3.0"
 
 botpress@^0.1.8:
-  version "0.1.8"
-  resolved "https://registry.yarnpkg.com/botpress/-/botpress-0.1.8.tgz#fbf0861730095da277d0b22e9d607b94cbce0bc1"
+  version "0.1.9"
+  resolved "https://registry.yarnpkg.com/botpress/-/botpress-0.1.9.tgz#05cd5a72d39fa2e7769893227682128a1284c18f"
   dependencies:
     axios "^0.15.2"
     babel-polyfill "^6.23.0"
@@ -1658,8 +1658,8 @@ figures@^2.0.0:
     escape-string-regexp "^1.0.5"
 
 file-type@^4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/file-type/-/file-type-4.1.0.tgz#690b70293715d7fd39697e38f7a108ebab2551b9"
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/file-type/-/file-type-4.2.0.tgz#3971643aa8fbe4145bdbaefe4d714d8b81ae1849"
 
 filename-regex@^2.0.0:
   version "2.0.0"
@@ -2866,9 +2866,13 @@ ms@0.7.1:
   version "0.7.1"
   resolved "https://registry.yarnpkg.com/ms/-/ms-0.7.1.tgz#9cd13c03adbff25b65effde7ce864ee952017098"
 
-ms@0.7.2, ms@^0.7.1:
+ms@0.7.2:
   version "0.7.2"
   resolved "https://registry.yarnpkg.com/ms/-/ms-0.7.2.tgz#ae25cf2512b3885a1d95d7f037868d8431124765"
+
+ms@^0.7.1:
+  version "0.7.3"
+  resolved "https://registry.yarnpkg.com/ms/-/ms-0.7.3.tgz#708155a5e44e33f5fd0fc53e81d0d40a91be1fff"
 
 multimatch@^2.1.0:
   version "2.1.0"
@@ -3060,8 +3064,8 @@ number-is-nan@^1.0.0:
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
 
 nyc@^10.1.2:
-  version "10.2.0"
-  resolved "https://registry.yarnpkg.com/nyc/-/nyc-10.2.0.tgz#facd90240600c9aa4dd81ea99c2fb6a85c53de0c"
+  version "10.2.2"
+  resolved "https://registry.yarnpkg.com/nyc/-/nyc-10.2.2.tgz#1b1c8ca4636d810cb3e281558dc9fcb08389f204"
   dependencies:
     archy "^1.0.0"
     arrify "^1.0.1"
@@ -3207,8 +3211,8 @@ package-json@^2.0.0:
     semver "^5.1.0"
 
 package-json@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/package-json/-/package-json-4.0.0.tgz#f3c9dc8738f5b59304d54d2cfb3f91d08fdd7998"
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/package-json/-/package-json-4.0.1.tgz#8869a0401253661c4c4ca3da6c2121ed555f5eed"
   dependencies:
     got "^6.7.1"
     registry-auth-token "^3.0.1"
@@ -4368,8 +4372,8 @@ tslint@^4.3.1:
     update-notifier "^2.0.0"
 
 tsutils@^1.1.0, tsutils@^1.4.0:
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/tsutils/-/tsutils-1.6.0.tgz#1fd7fac2a61369ed99cd3997f0fbb437128850f2"
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/tsutils/-/tsutils-1.7.0.tgz#2e63ccc2d6912bb095f7e363ff4100721dc86f50"
 
 tunnel-agent@^0.6.0:
   version "0.6.0"
@@ -4382,8 +4386,8 @@ tweetnacl@^0.14.3, tweetnacl@~0.14.0:
   resolved "https://registry.yarnpkg.com/tweetnacl/-/tweetnacl-0.14.5.tgz#5ae68177f192d4456269d108afa93ff8743f4f64"
 
 type-detect@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/type-detect/-/type-detect-4.0.0.tgz#62053883542a321f2f7b25746dc696478b18ff6b"
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/type-detect/-/type-detect-4.0.1.tgz#c2473c08dc6f975232ca7e3317570f187bf7f3e2"
 
 type-is@~1.6.14:
   version "1.6.15"
@@ -4534,8 +4538,8 @@ uuid@^3.0.0:
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.0.1.tgz#6544bba2dfda8c1cf17e629a3a305e2bb1fee6c1"
 
 v8flags@^2.0.2:
-  version "2.0.12"
-  resolved "https://registry.yarnpkg.com/v8flags/-/v8flags-2.0.12.tgz#73235d9f7176f8e8833fb286795445f7938d84e5"
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/v8flags/-/v8flags-2.1.1.tgz#aab1a1fa30d45f88dd321148875ac02c0b55e5b4"
   dependencies:
     user-home "^1.1.1"
 
