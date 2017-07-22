@@ -109,7 +109,7 @@ $ npm i --save @broid/skype @broid/slack @broid/messenger @broid/discord
 $ npm i --save @broid/kit-botpress
 ```
 
-6. Copy past the basic code and play with it!
+6. Copy paste the basic code and play with it!
 
 ```javascript
 
