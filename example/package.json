@@ -1,0 +1,13 @@
+{
+  "name": "broid-kit-botpress-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "@broid/kit": "^1.0.2",
+    "@broid/kit-botpress": "^0.1.0",
+    "@broid/messenger": "^2.0.4",
+    "@broid/slack": "^2.1.1",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3"
+  }
+}
