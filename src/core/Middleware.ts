@@ -107,7 +107,7 @@ export class Middleware {
       type: 'outgoing',
       order: 200,
       module: 'broidkit',
-      description: 'The built-in hear convenience middleware',
+      description: 'Not fully supported',
       handler: handler.bind(this)
     };
   }
