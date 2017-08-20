@@ -32,7 +32,7 @@
 
 **Broid Kit Botpress** is a [broid-kit](https://github.com/broidHQ/broid-kit) middlewares that integrates [botpress](https://github.com/botpress/botpress) with [Broid Integrations](https://github.com/broidHQ/integrations/) which allows you to leverage the largest collection of messaging channels integrated in a single framework.
 
-This middleware support `Incoming` and `Outcoming` messages.
+This middleware supports only `Incoming` messages (communication channel -> broid -> botpress), `Outgoing` is not supported (there is no way to pass messages from botpress -> broid -> communication channel, the only option is broid -> communication channel).
 
 > Connect your application to multiple messaging channels using W3C Open standards.
 
